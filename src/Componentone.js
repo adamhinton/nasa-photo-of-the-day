@@ -10,6 +10,9 @@ const BigComponent = (props) =>{
         <div>
             <p>Copyright: {nasaAPI.copyright} </p>
             <p>Date: {nasaAPI.date}</p>
+            <p>Explanation: {nasaAPI.explanation}</p>
+            <img src= {nasaAPI.hdurl} />
+
         </div>
     )
 }
